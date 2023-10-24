@@ -26,11 +26,17 @@
 }
 
 
+#spacing {
+    height: 0 !important;
+}
 
+.skills{
+    color: white;
+}
 
-
-
-
+/* .about{
+    padding-bottom: 0;
+} */
 
   /* When you mouse over the container, fade in the overlay title */
   .container:hover .overlay {
@@ -149,20 +155,24 @@ section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 800;
+
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-
+#skills{
+    background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
+    background-size: cover;
+}
 section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    /* width: 180px; */
     height: 3px;
-    background: #111;
+    /* background: #111; */
     transform: translateX(-50%);
 }
 
@@ -170,10 +180,12 @@ section .title::after {
     position: absolute;
     bottom: -8px;
     left: 50%;
-    font-size: 20px;
-    color: crimson;
+    font-size: 25px;
+    color: #0784c3;
     padding: 0 5px;
-    background: #fff;
+    font-weight:bolder;
+    /* font-style:oblique; */
+    /* background: #fff; */
     transform: translateX(-50%);
 }
 
@@ -501,8 +513,11 @@ margin-right: 3rem;
 
 .services .title::after,
 .teams .title::after {
-    background: #111;
+    background: #010101;
     content: "collaborators";
+}
+.teams .title::after{
+    background: none;
 }
 
 .services .serv-content .card {
@@ -713,8 +728,8 @@ a,.btn{
 
 .teams .cop .card img {
     display: block;
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     object-fit: cover;
     border-radius: 50%;
     /* border: 5px solid black; */
@@ -739,7 +754,7 @@ a,.btn{
 }
 .skills .carousel .card img {
     object-fit: cover;
-    border: 5px solid crimson;
+    border: 5px solid #0784c3;
     /* transition: all 0.3s ease; */
 }
 
@@ -747,7 +762,7 @@ a,.btn{
     border-color: #fff;
 }
 
-/* .owl-dots {
+.owl-dots {
     text-align: center;
     margin-top: 20px;
 }
@@ -758,7 +773,7 @@ a,.btn{
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid crimson !important;
+    border: 2px solid #0784c3 !important;
      transition: all 0.3s ease; 
  } 
 
@@ -769,8 +784,8 @@ a,.btn{
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson !important;
-} */
+    background: #0784c3 !important;
+} 
 
 #spacing {
     height: 50px;
@@ -799,7 +814,12 @@ a,.btn{
     margin-top: 1rem;
 
 }
-
+#skills{
+    padding-bottom: 1rem;
+}
+strong{
+    font-size: 1.5rem;
+}
 .c{
     padding-left: 0;
     padding-right: 0;
@@ -883,7 +903,12 @@ a,.btn{
     height: 80px;
     width: 100%;
 }
+.box img{
+    border-radius: 5%;
 
+}
+/* .skills{background-image: url('https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x2399_crop_center-center_82_line/85831/20151102_Crescent-Pluto-3D-render.jpg.webp')
+    ; background-size: cover;} */
 .contact .right form .name {
     margin-right: 10px;
 }
@@ -916,8 +941,12 @@ a,.btn{
     align-items: center;
 }
 #teams{
-    background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg");
+    /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
+    background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
+background-position-y:-46.5rem;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black !important;
 
 }
 .right form .button-area a {
@@ -957,7 +986,9 @@ a:active {
     color: #0784c3;;
     text-decoration: underline;
 }
-
+p{
+    font-size: 1rem;
+}
 /* footer section styling */
 footer {
     background: #111;
@@ -1079,8 +1110,8 @@ canvas {
 @media (max-width: 1104px) {
 
     .teams .cop .card img {
-        height: 100px;
-        width: auto;
+        height: 150px;
+        width: 150px;
     }
 
     .about .about-content .left img {
@@ -1090,13 +1121,14 @@ canvas {
 }
 
 @media (max-width: 991px) {
+    
     .logo{margin-right: 2rem}
     .max-width {
         padding: 0 50px;
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 933px) {
     .cop{
         flex-direction: column;
     }
@@ -1207,8 +1239,57 @@ canvas {
     }
 }
 
+@media (max-width:933px) {
+    .owl-item{
+        width: 100% !important;
+        margin-left: 0 !important;
+       
+    }
+    .card{
+        text-align: center;
+        width: 100%;
+        margin: auto !important;
+        margin-bottom: 1rem !important;
+    }
+    .box{
+        width: 90%;
+        margin: auto;
+    }
+    #teams{
 
+        background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg")  !important;
+        background-size: cover;
+        background-position-y: unset;
+    }   
+}
 
+@media (max-width:930px) {
+    .fa-angle-up:before{
+        position: relative;
+        bottom: 3.7rem;
+        left: 3.3rem;
+
+    }
+    
+}
+
+@media (max-width:893px) {
+
+    
+
+    #teams{
+
+        background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg")  !important;
+        background-size: cover;
+        background-position-y: unset;
+    }   
+    /* .teams{
+        background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg") no-repeat !important;
+        background-size: cover;
+        background-position-y: unset;
+    } */
+
+}
 @media (max-width: 750px) {
     /* .fas{
         position: absolute;
@@ -1221,6 +1302,7 @@ canvas {
         position:relative;
         bottom: 2.5rem;
     } */
+    
     .cop{
         padding: unset;
     }
@@ -1267,7 +1349,27 @@ canvas {
 }
 
 @media (max-width: 698px) {
+    .fa-angle-up:before{
+        position: relative;
+        bottom: 4.6rem;
+        left: 0.3rem;
 
+    }
+        .owl-item{
+            width: 100% !important;
+            margin-left: 0 !important;
+           
+        }
+        .card{
+            text-align: center;
+            width: 100%;
+            margin: auto !important;
+            margin-bottom: 1rem !important;
+        }
+        .box{
+            width: 90%;
+            margin: auto;
+        }
     .sticky .logo{
         padding-left: 1rem ;
         padding-right: 0.6rem;
@@ -1348,7 +1450,12 @@ canvas {
 }
 
 @media (max-width: 500px) {
+    .fa-angle-up:before{
+        position: relative;
+        bottom: 3.1rem;
+        left: 0.3rem;
 
+    }
      .navbar .club{
         bottom: 1.5rem;
    }
