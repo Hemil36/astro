@@ -1,27 +1,29 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 .overlay {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
     color: #f1f1f1;
     width: 10%;
     transition: .4s ease;
-    opacity:0;
+    opacity: 0;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center;
-  }
-  
-  .ms-team{
+}
+
+.ms-team {
     text-align: right;
     width: 100%;
-  }
+}
 
-.team{
-    background-image:  url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
+.team {
+    background-image: url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
 
 }
 
@@ -30,7 +32,7 @@
     height: 0 !important;
 }
 
-.skills{
+.skills {
     color: white;
 }
 
@@ -38,47 +40,51 @@
     padding-bottom: 0;
 } */
 
-  /* When you mouse over the container, fade in the overlay title */
-  .container:hover .overlay {
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
     opacity: 1;
-  }
+}
 
 
 .flex {
     display: flex;
     flex-direction: row;
 }
-.btn{
+
+.btn {
     margin-top: 10%;
     padding: 0.9rem;
-    background-color: #111 ;
+    background-color: #111;
     border-radius: 12%;
     color: #f1f1f1;
     font-weight: bold;
     font-size: 1rem;
 }
 
-.btn-team{
+.btn-team {
     margin: 0;
     margin-left: 10%;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     color: black;
 }
+
 .pogo {
     margin-top: 1.8rem;
     margin-right: 1rem;
-    width:auto;
+    width: auto;
     height: 7rem;
     border-radius: 100%;
 
 
 }
 
-#register-button{
+#register-button {
     border-radius: 10%;
 }
+
 .menu {
     padding-top: 4.4rem;
     padding-left: 28rem;
@@ -161,10 +167,12 @@ section .title {
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-#skills{
+
+#skills {
     background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
     background-size: cover;
 }
+
 section .title::before {
     content: "";
     position: absolute;
@@ -183,7 +191,7 @@ section .title::after {
     font-size: 25px;
     color: #0784c3;
     padding: 0 5px;
-    font-weight:bolder;
+    font-weight: bolder;
     /* font-style:oblique; */
     /* background: #fff; */
     transform: translateX(-50%);
@@ -246,9 +254,11 @@ section .title::after {
     font-size: 1.5rem;
 
 }
-.navbar.sticky .logo a span :hover{
+
+.navbar.sticky .logo a span :hover {
     color: #0784c3;
 }
+
 /* .home {
     position: absolute;
     z-index: -1;
@@ -276,13 +286,15 @@ section .title::after {
     display: inline-block;
 }
 
-.t{
+.t {
     height: 30px;
 }
 
-.text-1,.text-2{
+.text-1,
+.text-2 {
     font-family: 'Roboto Mono', monospace;
 }
+
 .navbar .menu li a {
     font-family: 'Roboto Mono', monospace;
     display: block;
@@ -296,9 +308,11 @@ section .title::after {
 .navbar .menu li a:hover {
     color: #0784c3;
 }
-.navbar .logo  span:hover {
+
+.navbar .logo span:hover {
     color: #0784c3;
 }
+
 .navbar.sticky .menu li a:hover {
     color: #0784c3;
 }
@@ -407,8 +421,8 @@ section .title::after {
     background: none;
 }
 
-.home{
-    background:linear-gradient(rgba(43, 42, 42, 0.5), rgba(21, 9, 9, 0.164)), url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
+.home {
+    background: linear-gradient(rgba(43, 42, 42, 0.5), rgba(21, 9, 9, 0.164)), url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
 
 }
 
@@ -453,30 +467,33 @@ section .title::after {
 
 
 
-.follow{
-margin-right: 3rem;
+.follow {
+    margin-right: 3rem;
     width: max-content;
 }
-.address{
+
+.address {
     text-align: center;
     padding-right: 2rem;
 }
-.address p{
+
+.address p {
     font-size: 1rem;
 }
 
-.address img{
+.address img {
     height: 1rem;
     width: auto;
 }
 
-.footer-logo img{
+.footer-logo img {
     position: relative;
     bottom: 3rem;
     height: 10rem;
     width: auto;
 
 }
+
 .about .about-content .right p {
     text-align: justify;
 }
@@ -516,7 +533,8 @@ margin-right: 3rem;
     background: #010101;
     content: "collaborators";
 }
-.teams .title::after{
+
+.teams .title::after {
     background: none;
 }
 
@@ -571,17 +589,24 @@ a:visited {
 .services .serv-content .card a:hover,
 a:active {
     /* background-color: white; */
-    color: #0784c3;;
+    color: #0784c3;
+    ;
 }
-a,.btn{
+
+a,
+.btn {
     font-family: 'Roboto Mono', monospace;
 }
+
 #collab-logo {
     width: 5rem;
     height: 5rem;
 }
 
-.i:hover{text-decoration: underline;}
+.i:hover {
+    text-decoration: underline;
+}
+
 /* projects section styling */
 
 .skills .title::after {
@@ -616,7 +641,8 @@ a,.btn{
 }
 
 .skills .skills-content .left a:hover {
-    color: #0784c3;;
+    color: #0784c3;
+    ;
     background: none;
 }
 
@@ -704,6 +730,7 @@ a,.btn{
     justify-content: center;
     /* transition: all 0.4s ease; */
 }
+
 /* #teams .box{
     background: #222;
     padding-right: 1rem
@@ -742,8 +769,8 @@ a,.btn{
 } */
 
 
-.cop{
-    
+.cop {
+
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -752,6 +779,7 @@ a,.btn{
     text-align: center;
     overflow: hidden;
 }
+
 .skills .carousel .card img {
     object-fit: cover;
     border: 5px solid #0784c3;
@@ -762,26 +790,29 @@ a,.btn{
     border-color: #fff;
 }
 
-.owl-dots{
+.owl-dots {
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot{
+
+.owl-dot {
     height: 13px;
     width: 13px;
     margin: 0 5px;
-    outline: none!important;
+    outline: none !important;
     border-radius: 50%;
-    border: 2px solid  #0784c3!important;
+    border: 2px solid #0784c3 !important;
     transition: all 0.3s ease;
 }
-.owl-dot.active{
+
+.owl-dot.active {
     width: 35px;
     border-radius: 14px;
 }
+
 .owl-dot.active,
-.owl-dot:hover{
-    background:  #0784c3!important;
+.owl-dot:hover {
+    background: #0784c3 !important;
 }
 
 /* 
@@ -837,16 +868,20 @@ a,.btn{
     margin-top: 1rem;
 
 }
-#skills{
+
+#skills {
     padding-bottom: 1rem;
 }
-strong{
+
+strong {
     font-size: 1.5rem;
 }
-.c{
+
+.c {
     padding-left: 0;
     padding-right: 0;
 }
+
 #register {
     position: absolute;
     top: 80%;
@@ -926,10 +961,12 @@ strong{
     height: 80px;
     width: 100%;
 }
-.box img{
+
+.box img {
     border-radius: 5%;
 
 }
+
 /* .skills{background-image: url('https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x2399_crop_center-center_82_line/85831/20151102_Crescent-Pluto-3D-render.jpg.webp')
     ; background-size: cover;} */
 .contact .right form .name {
@@ -964,22 +1001,22 @@ strong{
     align-items: center;
 }
 
-.footer-1{
+.footer-1 {
     display: flex;
     gap: 5px;
 }
 
-#teams{
+#teams {
     /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
     background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
-background-position-y:-51.9rem;
+    background-position-y: -51.9rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black !important;
 }
 
 
-.r{
+.r {
     height: 20px !important;
 }
 
@@ -1000,9 +1037,11 @@ background-position-y:-51.9rem;
     padding-left: 40px;
     padding-top: 7px;
 }
-.footer-logo img{
+
+.footer-logo img {
     margin-left: 2rem;
 }
+
 .right form .button-area a:hover {
     color: crimson;
     background: none;
@@ -1017,12 +1056,15 @@ a:visited {
 .contact .contact-content .row a:hover,
 a:active {
     /* background-color: white; */
-    color: #0784c3;;
+    color: #0784c3;
+    ;
     text-decoration: underline;
 }
-p{
+
+p {
     font-size: 1rem;
 }
+
 /* footer section styling */
 footer {
     background: #111;
@@ -1036,9 +1078,10 @@ footer span a {
     text-decoration: none;
 }
 
-.contact{
+.contact {
     padding-bottom: 3rem;
 }
+
 footer span a:hover {
     text-decoration: underline;
 }
@@ -1049,12 +1092,14 @@ body {
     font: normal 75% Arial, Helvetica, sans-serif;
 }
 
-.follow p{
+.follow p {
     font-size: large;
 }
+
 canvas {
     display: block;
 }
+
 #main-section {
     overflow: hidden;
 }
@@ -1071,7 +1116,7 @@ canvas {
     opacity: 0.48;
 }
 
-.follow{
+.follow {
     padding-left: 2rem;
 }
 
@@ -1130,14 +1175,14 @@ canvas {
 /* responsive media query start */
 
 @media (max-width:1365px) {
-    .menu{
+    .menu {
         padding-left: 4rem;
     }
 
-    .container{
+    .container {
         width: auto;
     }
-    
+
 }
 
 
@@ -1155,27 +1200,34 @@ canvas {
 }
 
 @media (max-width: 991px) {
-    
-    .logo{margin-right: 2rem}
+
+    .logo {
+        margin-right: 2rem
+    }
+
     .max-width {
         padding: 0 50px;
     }
 }
 
 @media (max-width: 933px) {
-    .cop{
+    .cop {
         flex-direction: column;
     }
-   .card{
-    margin: auto;
-    
-   }
-   .box{
-    width: 292px;
-   }
-    .menu{
+
+    .card {
+        margin: auto;
+
+    }
+
+    .box {
+        width: 292px;
+    }
+
+    .menu {
         padding-left: 0;
     }
+
     .menu-btn {
         display: block;
         z-index: 999;
@@ -1213,7 +1265,7 @@ canvas {
 
     .home .home-content .text-2 {
         font-size: 70px;
-        
+
     }
 
     .home .home-content .text-3 {
@@ -1253,70 +1305,73 @@ canvas {
         width: 100%;
         margin-bottom: 35px;
     }
-    .i{
+
+    .i {
         font-size: 0.7rem
-        
     }
 
 
-    .fas{
+    .fas {
         position: absolute;
-        right: 4rem ;
-        top:4.3rem
-
+        right: 4rem;
+        top: 4.3rem
     }
-    .sticky .fas{
-        position: absolute;
-        right: 4rem ;
-        top:2.6rem
 
+    .sticky .fas {
+        position: absolute;
+        right: 4rem;
+        top: 2.6rem
     }
 }
 
 @media (max-width:933px) {
+
     /* .owl-item{
         width: 100% !important;
         margin-left: 0 !important;
        
     } */
-    .card{
+    .card {
         text-align: center;
         width: 100%;
         margin: auto !important;
         margin-bottom: 1rem !important;
     }
-    .box{
+
+    .box {
         width: 90%;
         margin: auto;
     }
-    #teams{
 
-        background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg")  !important;
+    #teams {
+
+        background-image: url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg") !important;
         background-size: cover;
         background-position-y: unset;
-    }   
+    }
 }
 
 @media (max-width:930px) {
-    .fa-angle-up:before{
+    .fa-angle-up:before {
         position: relative;
         bottom: 3.7rem;
         left: 3.3rem;
 
     }
-    
+
 }
 
 @media (max-width:893px) {
 
-    
 
-    #teams{
 
-        background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg")  !important;
+    #teams {
+
+        background-image: url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg") !important;
         background-size: cover;
         background-position-y: unset;
-    }   
+    }
+
     /* .teams{
         background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg") no-repeat !important;
         background-size: cover;
@@ -1324,6 +1379,7 @@ canvas {
     } */
 
 }
+
 @media (max-width: 750px) {
     /* .fas{
         position: absolute;
@@ -1336,29 +1392,34 @@ canvas {
         position:relative;
         bottom: 2.5rem;
     } */
-    
-    .cop{
+
+    .cop {
         padding: unset;
     }
-#teams * {
-    box-sizing:content-box;
-}
-    .box{
-        width: 192px;
-       }
-    .sticky .fas{
-        position: absolute;
-        right: 4rem ;
-        top:2.2rem
+
+    #teams * {
+        box-sizing: content-box;
     }
-    .menu{
+
+    .box {
+        width: 192px;
+    }
+
+    .sticky .fas {
+        position: absolute;
+        right: 4rem;
+        top: 2.2rem
+    }
+
+    .menu {
         padding-left: 0;
     }
 
-     .logo  a a{
+    .logo a a {
         padding-top: 5rem;
         font-size: 1rem;
     }
+
     /*
 .logo{
     padding-left: 1rem;
@@ -1373,86 +1434,99 @@ canvas {
         padding-left: 1rem;
         height: 7rem;
     } */
-    .address{
+    .address {
 
         padding-left: 1rem;
     }
-    .address p{
+
+    .address p {
         font-size: 0.7rem;
     }
 }
 
 @media (max-width: 698px) {
-    .fa-angle-up:before{
+    .fa-angle-up:before {
         position: relative;
         bottom: 4.6rem;
         left: 0.3rem;
 
     }
-        /* .owl-item{
+
+    /* .owl-item{
             width: 100% !important;
             margin-left: 0 !important;
            
         } */
-        .card{
-            text-align: center;
-            width: 100%;
-            margin: auto !important;
-            margin-bottom: 1rem !important;
-        }
-        .box{
-            width: 90%;
-            margin: auto;
-        }
-    .sticky .logo{
-        padding-left: 1rem ;
+    .card {
+        text-align: center;
+        width: 100%;
+        margin: auto !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sticky .logo {
+        padding-left: 1rem;
         padding-right: 0.6rem;
 
     }
 
-    .fas{
+    .fas {
         position: absolute;
-        right: 4rem ;
-        top:5rem
+        right: 4rem;
+        top: 5rem
     }
-    .navbar .logo  a span{
+
+    .navbar .logo a span {
         position: relative;
         bottom: 2rem;
         font-size: 1.4rem;
         padding-left: 0;
-    } 
-    .navbar .logo img{
+    }
+
+    .navbar .logo img {
         margin-right: 0.2rem;
     }
-    .fas{
+
+    .fas {
         right: 1rem;
         bottom: 1rem;
     }
-    .menu{
+
+    .menu {
         padding-left: 0;
     }
-    .footer-logo img{
+
+    .footer-logo img {
         margin-left: 0;
         position: relative;
         top: 0.5rem;
         margin-left: 0.3rem;
         height: 9rem;
-    }    
-    .address{
-        padding-left: 0%;
     }
+
+    .address {
+        width: 80%;
+        margin: auto;
+        padding: unset;
+    }
+
     .max-width {
         padding: 0 23px;
     }
-    
+
     .home .home-content .text-2 {
         font-size: 60px;
     }
-    
+
     .home .home-content .text-3 {
         font-size: 32px;
     }
-    
+
     .home .home-content a {
         font-size: 20px;
     }
@@ -1460,110 +1534,122 @@ canvas {
     .services .serv-content .card {
         width: 100%;
     }
-    
-    .follow{
+
+    .follow {
         margin-right: 0;
-        
+
     }
-    .address p{
+
+    .address p {
         font-size: 0.7rem;
     }
 
-    .follow p{
+    /* .follow p {
         font-size: 0.7rem;
-    }
-    .logo  a a{
+    } */
+
+    .logo a a {
         padding-top: 5rem;
         font-size: 1rem;
     }
-    .logo{margin-left: 0rem}
-    .navbar.sticky .logo a span{
-        font-size:1rem;
+
+    .logo {
+        margin-left: 0rem
     }
 
-    .footer-1{
+    .navbar.sticky .logo a span {
+        font-size: 1rem;
+    }
+
+    .footer-1 {
         /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         gap: 3rem;
     }
-    
-    .contact{
-        margin-top: -70px ;
+
+    .contact {
+        margin-top: -70px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 3.5rem;
     }
-    .address{
-        width: 340px;
-    }
-    
+
+
 }
 
 @media (max-width:430px) {
-    section .title::after{
+    section .title::after {
         left: 42%;
         transform: translateX(-40%);
     }
-    .teams .title::after{
+
+    .teams .title::after {
         bottom: 0;
-        top:50px;
+        top: 50px;
         width: max-content;
     }
-    .sticky{
+
+    .sticky {
         padding-top: 4px !important;
     }
 }
 
 @media (max-width: 500px) {
-    .fa-angle-up:before{
+    .fa-angle-up:before {
         position: relative;
         bottom: 3.1rem;
         left: 0.3rem;
 
     }
-     .navbar .club{
+
+    .navbar .club {
         bottom: 1.5rem;
-   }
-    .navbar   .logo  a span{
-       position: relative;
-       top: 0.1rem;
-        
     }
 
-    .navbar  .sticky .logo  a span{
+    .navbar .logo a span {
+        position: relative;
+        top: 0.1rem;
+
+    }
+
+    .navbar .sticky .logo a span {
         padding-top: 5rem;
         font-size: 0.4rem;
     }
 
-.sticky .logo{
-    padding-left: 0.6rem;
-    margin-right: 0.5rem;
-}
+    .sticky .logo {
+        padding-left: 0.6rem;
+        margin-right: 0.5rem;
+    }
 
-    .logo{margin-left: 0rem;
-    padding-left: 1rem}
-    .logo  a a{
+    .logo {
+        margin-left: 0rem;
+        padding-left: 1rem
+    }
+
+    .logo a a {
         padding-top: 5rem;
         font-size: 1rem;
     }
 
-    .navbar .logo a span{
+    .navbar .logo a span {
         font-size: 0.9rem;
     }
 
 
- 
-    .fas{
+
+    .fas {
         position: absolute;
-        right: 1rem ;
-        top:3.5rem
+        right: 1rem;
+        top: 3.5rem
     }
 
-    .menu{
+    .menu {
         padding-left: 0;
     }
+
     .home .home-content .text-2 {
         font-size: 50px;
     }
@@ -1598,17 +1684,19 @@ canvas {
         font-size: 23px;
         line-height: 38px;
     }
-    .address p{
+
+    .address p {
         font-size: 0.5rem;
     }
 
-    .i{
+    .i {
         padding-left: 0;
         padding: 0;
         font-size: 0.5rem;
-        
+
     }
-    .t{
+
+    .t {
         height: 30px;
         width: 30px;
     }
@@ -1617,26 +1705,27 @@ canvas {
         position: relative;
         top: 1px;
     } */
-    .sticky .fas{
+    .sticky .fas {
         position: absolute;
-        right: 2rem ;
-        top:2.6rem
+        right: 2rem;
+        top: 2.6rem
     }
-    .pogo{position: relative;
+
+    .pogo {
+        position: relative;
         top: 5px;
         height: 4rem;
         width: auto;
     }
 
-.follow{padding-left: 0;}
-    .footer-logo img{
+    .follow {
+        padding-left: 0;
+    }
+
+    .footer-logo img {
         position: relative;
         top: 0.5rem;
         margin-left: 0.6rem;
         height: 8rem;
-    }    
+    }
 }
-
-
-    
-    
