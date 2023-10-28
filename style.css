@@ -1583,6 +1583,7 @@ canvas {
 @media (max-width:430px) {
 .follow p{
     font-size: 1rem;
+    padding-left: 1rem;
 }
     .follow{
         width: 50%;
