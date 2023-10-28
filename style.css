@@ -899,6 +899,9 @@ strong {
     background-color: black;
 }
 
+.contact{
+    margin-left: 10%;
+}
 
 /* contact section styling */
 .contact .title::after {
@@ -1363,7 +1366,10 @@ canvas {
 
 @media (max-width:893px) {
 
-
+    .contact
+    {
+        margin-left: auto;
+    }
 
     #teams {
 
@@ -1583,6 +1589,12 @@ canvas {
 @media (max-width:430px) {
 .follow p{
     font-size: 1rem;
+    
+}
+.io{
+    padding-left: 2rem;
+}
+.r{
     padding-left: 1rem;
 }
     .follow{
