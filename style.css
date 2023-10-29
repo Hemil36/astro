@@ -21,6 +21,19 @@
     text-align: right;
     width: 100%;
 }
+.iu{
+    color: black !important;
+        /* font-family: 'Roboto Mono', monospace; */
+        font-family: 'Poppins', sans-serif;
+
+
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-decoration-color:black !important ;
+}
+
 
 .team {
     background-image: url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
@@ -226,7 +239,10 @@ section .title::after {
     justify-content: space-between;
 }
 
-
+#club{
+    
+    text-decoration: none !important;
+}
 
 .navbar .logo a {
     color: #fff;
@@ -235,13 +251,14 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
     color: white;
     font-size: 1.5rem;
     padding-left: 1.5rem;
     position: relative;
-    bottom: 2.3rem;
+    bottom: 3.3rem;
     transition: all 0.4s ease;
 }
 
@@ -249,7 +266,7 @@ section .title::after {
     color: #fff;
     height: 1rem;
     position: relative;
-    bottom: 1rem;
+    bottom: 2rem;
     /* color: white; */
     font-size: 1.5rem;
 
