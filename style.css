@@ -169,7 +169,7 @@ section .title {
 }
 
 #skills {
-    background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
+    background-image: url('images/pluto.png');
     background-size: cover;
 }
 
@@ -422,7 +422,7 @@ section .title::after {
 }
 
 .home {
-    background: linear-gradient(rgba(43, 42, 42, 0.5), rgba(21, 9, 9, 0.164)), url("https://i0.wp.com/blog.frontiersin.org/wp-content/uploads/2023/02/Horizontal-The-Helix-Nebula-is-a-large-planetary-nebula-located-in-the-constellation-Aquarius.-Elements-of-this-image-furnished-by-NASA..png?ssl=1");
+    background: linear-gradient(rgba(43, 42, 42, 0.5), rgba(21, 9, 9, 0.164)), url("images/home.png");
 
 }
 
@@ -1011,7 +1011,7 @@ strong {
 
 #teams {
     /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
-    background-image: url('images/20151102_Crescent-Pluto-3D-render.png');
+    background-image: url('images/pluto.png');
     background-position-y: -51.9rem;
     background-size: cover;
     background-repeat: no-repeat;
