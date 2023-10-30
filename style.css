@@ -758,6 +758,7 @@ a,
     /* background: #222; */
     border-radius: 1px;
     padding: 5px 35px;
+    padding-bottom: 2rem;
     text-align: center;
     overflow: hidden;
     width: 60%;
