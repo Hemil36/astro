@@ -195,6 +195,8 @@ section .title {
 #skills {
     background-image: url('images/pluto.png');
     background-size: cover;
+    background-position-y: 1rem;
+    /* backgr; */
 }
 
 section .title::before {
@@ -738,6 +740,10 @@ a,
     content: "who are with us";
 }
 
+.teams .re::after{
+    content: "Who guides us";
+}
+
 .teams .cop .card {
     /* background: #222; */
     border-radius: 1px;
@@ -748,7 +754,20 @@ a,
 
     /* transition: all 0.4s ease; */
 }
+.teams .cop-1 .card {
+    /* background: #222; */
+    border-radius: 1px;
+    padding: 5px 35px;
+    text-align: center;
+    overflow: hidden;
+    width: 60%;
 
+    /* transition: all 0.4s ease; */
+}
+
+.re{
+    margin-bottom: 2rem !important;
+}
 .teams .carousel .card:hover {
     background: crimson;
 }
@@ -760,6 +779,7 @@ a,
     justify-content: center;
     /* transition: all 0.4s ease; */
 }
+
 
 /* #teams .box{
     background: #222;
@@ -1042,7 +1062,7 @@ strong {
 #teams {
     /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
     background-image: url('images/pluto.png');
-    background-position-y: -51.9rem;
+    background-position-y: -50.9rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black !important;
@@ -1217,7 +1237,15 @@ canvas {
     }
 
 }
+@media (max-width:1351px) {
+    #teams {
 
+        
+        background-image: url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg") !important;
+        /* background-size: cover; */
+        background-position-y: unset;
+    }
+}
 
 @media (max-width: 1104px) {
 
@@ -1646,6 +1674,7 @@ canvas {
     }
 }
 
+
 @media (max-width: 500px) {
     .fa-angle-up:before {
         position: relative;
@@ -1660,7 +1689,7 @@ canvas {
 
     .navbar .logo a span {
         position: relative;
-        top: 0.1rem;
+        top: -1.3rem;
 
     }
 
@@ -1779,4 +1808,19 @@ canvas {
         /* margin-left: 0.6rem; */
         height: 5rem;
     }
+}
+
+@media (max-width: 485px) {
+    .navbar .sticky .logo a span {
+        top:-1.8rem !important;
+        font-size: 0.4rem;
+    }
+
+}
+
+@media (max-width: 435px) {
+    .navbar .sticky .logo a span {
+        top:-1.3rem !important;
+    }
+
 }
