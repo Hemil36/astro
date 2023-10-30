@@ -193,7 +193,7 @@ section .title {
 }
 
 #skills {
-    background-image: url('images/pluto.png');
+    background-image: url('images/pluto.jpg');
     background-size: cover;
     background-position-y: 1rem;
     /* backgr; */
@@ -1061,7 +1061,7 @@ strong {
 
 #teams {
     /* background-image:  url("https://stac.iitmandi.co.in/static/stac_iitmandi/images/ach.jpg"); */
-    background-image: url('images/pluto.png');
+    background-image: url('images/pluto.jpg');
     background-position-y: -50.9rem;
     background-size: cover;
     background-repeat: no-repeat;
