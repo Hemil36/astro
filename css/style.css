@@ -36,7 +36,9 @@
 
 
 
-
+.har{
+    height: 250px !important;
+}
 
 
   /* When you mouse over the container, fade in the overlay title */
