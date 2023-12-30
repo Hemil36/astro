@@ -219,6 +219,8 @@ section .title {
     /* backgr; */
 }
 
+.slide-in-right{-webkit-animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 section .title::before {
     content: "";
     position: absolute;
@@ -1281,7 +1283,9 @@ canvas {
 }
 
 @media (max-width: 991px) {
-
+    .btn-2{
+        font-size: 1rem;
+    }
     .logo {
         margin-right: 2rem
     }
@@ -1465,6 +1469,12 @@ canvas {
 }
 
 @media (max-width: 750px) {
+    .btn-2{
+        font-size: 1rem;
+    }
+    .pli{
+        padding-left: 1rem  !important;
+    }
     /* .fas{
         position: absolute;
         right: 4rem ;
@@ -1734,7 +1744,7 @@ canvas {
     }
 
     .navbar .logo a span {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
 
@@ -1828,6 +1838,7 @@ canvas {
         /* margin-left: 0.6rem; */
         height: 5rem;
     }
+    
 }
 
 @media (max-width: 485px) {

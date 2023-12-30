@@ -14,7 +14,18 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    var scroller = scrollama();
 
+    scroller
+      .setup({
+        step: '.animista',
+        offset: 1,
+      })
+      .onStepEnter(function(response) {
+        response.element.classList.add('slide-in-right');
+      });
+    
+    window.addEventListener('resize', scroller.resize);
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});

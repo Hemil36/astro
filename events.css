@@ -133,12 +133,16 @@ font-weight: unset
 
   @media (max-width : 420px) {
     .pogo{height: 10vh !important;}
-    .navbar .logo a span{
+    /* .navbar .logo a span{
       font-size: 0.7rem;
-    }
+    } */
     .as{
       font-size: 8vh 
       !important;
     }
+   
+
   }
+
+  
   

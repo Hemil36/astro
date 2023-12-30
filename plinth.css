@@ -1,4 +1,5 @@
-
+.slide-in-right{-webkit-animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right 1s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 
 .hover01  img {
 	-webkit-transform: scale(1);
@@ -148,7 +149,7 @@ li:hover,.navbar .menu li a:hover{
     }
     .container{
         gap: 2px !important;
-        width: 80% !important;
+        width: 90% !important;
     }
     #club{
         text-align: left !important;
@@ -160,7 +161,7 @@ li:hover,.navbar .menu li a:hover{
         font-family: 'Montserrat', sans-serif;
         font-weight: 200;
         color: white;
-        font-size: 0.7rem;
+        font-size: 1rem;
         /* padding-left: 1.5rem; */
         position: unset !important;
         transition: all 0.4s ease;
@@ -173,7 +174,7 @@ li:hover,.navbar .menu li a:hover{
     ;
     }
     .navbar.sticky .logo a span{
-        font-size: 0.7rem !important;
+        font-size: 1rem !important;
     }
     .btn-1{
         font-size: 3vw;
