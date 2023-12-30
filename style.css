@@ -9,7 +9,24 @@
 
 
 
+.btn-2{
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 10px ;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: 6px 12px;
+    line-height: auto;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
 
+}
 
 
 .overlay {
@@ -435,14 +452,13 @@ section .title::after {
 
 .home .home-content a {
     display: inline-block;
-    background: crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+   
     transition: all 0.4s ease;
 }
 

@@ -1,0 +1,181 @@
+
+
+.hover01  img {
+	-webkit-transform: scale(1);
+	/* transform: scale(0.3); */
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+   
+}
+.hover01  img:hover {
+    -webkit-transform: scale(0.4);
+	transform: scale(0.7);
+}
+
+.description{
+    border-left: white;
+    border-style: dashed !important;
+    border-width: 0 0 0 3px;
+    padding: 2rem;
+    width: 50% !important;
+    display: flex;flex-direction: column;gap: 19px;
+    
+}
+
+.description-1{
+    
+    border-right: white;
+    border-style: dashed;
+    border-width: 0 3px 0 0;
+    padding: 2rem;
+    width: 50% !important;
+    display: flex;flex-direction: column;gap: 19px;
+}
+h2{
+    font-weight: bold;
+    font-size: 3.6vw;
+    color: blanchedalmond;
+}
+.poster{
+  height: 30% 
+  !important;
+
+    border-radius: 10% ;
+}
+.image{
+   width: 50%;
+    height: 30% !important;
+    text-align: center;
+    overflow: hidden !important;
+}
+
+p{
+    font-family: 'PT Serif', serif;
+    font-size: 1.2vw;
+    font-weight: lighter !important;
+}
+.event-indie , .flex,.description{
+    height: 30%;
+}
+
+button{
+    padding: 0.6rem;
+    border-radius: 10%;
+    background-color: #11181f;
+    font-weight: bold;
+    font-size: 0.9vw;
+    color: white;
+}
+button:hover{
+    background-color: antiquewhite;
+    color:#11181f;
+}
+
+#club{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+    padding: 0.6rem !important;
+    border-radius: 10%;
+    position: unset !important;
+    margin: auto !important;
+    width: max-content !important;
+    text-align: center !important;
+}
+
+.image img{
+    height: auto !important;
+    transform: scale(0.6);
+    width: 50% !important;
+    border-radius: 20%;
+    margin: auto !important;
+}
+
+.btn-1{
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: 4px 10px;
+    line-height: auto;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+li:hover,.navbar .menu li a:hover{
+    color: #ffa505 !important;
+  }
+
+@media (max-width: 768px) {
+    .description{
+        border-style: none !important;
+    }
+}
+
+@media (max-width:400px) {
+    .buttons{
+        justify-content: center;align-items: center;
+    }
+    .flex{
+        flex-direction: column !important;
+    }
+    .image{
+        width: 100% !important;
+    }
+    .description{
+        text-align: center !important;
+        width: 100% !important;
+        border-style: none !important;
+    }
+    h2{
+        font-size: 12vw !important;
+    }
+    .image img{
+        transform: scale(0.8);
+    }
+    .image img:hover{
+        transform: scale(0.9);
+    }
+    .event-des{
+        font-size: 3vw !important ;
+    }
+    .container{
+        gap: 2px !important;
+        width: 80% !important;
+    }
+    #club{
+        text-align: left !important;
+        margin-left: 0 !important;
+    }
+    
+    .navbar .logo a span {
+        /* font-family: 'Roboto Mono', monospace; */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        color: white;
+        font-size: 0.7rem;
+        /* padding-left: 1.5rem; */
+        position: unset !important;
+        transition: all 0.4s ease;
+
+    }
+    .nav-final {
+        text-align: left !important;
+    position: relative !important;
+    top: 0.5rem ;
+    ;
+    }
+    .navbar.sticky .logo a span{
+        font-size: 0.7rem !important;
+    }
+    .btn-1{
+        font-size: 3vw;
+    }
+}
