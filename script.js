@@ -38,8 +38,8 @@ $(document).ready(function(){
     
     var typed = new Typed(".typing", {
         strings: ["Curiosity Thrives!", "we journey together beyond the known!", " Telescopes unveil wonders!", "We Win!"],
-        typeSpeed: 60,
-        backSpeed: 70,
+        typeSpeed: 50,
+        backSpeed: 50,
         loop: true
     });
 
