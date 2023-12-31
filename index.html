@@ -32,7 +32,7 @@
         
 
         body {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .p {
   -webkit-font-smoothing: antialiased;
@@ -45,7 +45,6 @@
     background-color: #000000 !important;
     width: 100%;
     height: 100%;
-    transition: fade 0.5s ease-in-out;
 }
 .p .vertical-centered-box {
   position: absolute;
@@ -67,9 +66,7 @@
   text-align: left;
   font-size: 0;
 }
-* {
-  transition: all 0.3s;
-}
+
 .p {
   background: #000000;
 }
@@ -161,12 +158,12 @@
                 <div class="loader-line-mask">
                     <div class="loader-line"></div>
                 </div>
-                <img src="./images/logo.png" width="130"  style="border-radius: 100%;"> 
+                <img src="./images/logo.png" width="120"  style="border-radius: 100%;"> 
             </div>
         </div>
     </div>
 
-    <div id="k" class="">
+    <div  class="">
         <div class="scroll-up-btn">
             <i class="fas fa-angle-up"></i>
         </div>
@@ -488,7 +485,7 @@
             maxSpeedX: 0.6,
             minSpeedY: 0.3,
             maxSpeedY: 0.6,
-            density: 5500, // One particle every n pixels
+            density: 55000, // One particle every n pixels
             curvedLines: false,
             proximity: 250, // How close two dots need to be before they join
             parallaxMultiplier: 10, // Lower the number is more extreme parallax
@@ -518,7 +515,7 @@ function myFunction() {
 }
 
 function showPage() {
-    $("#pu").remove().fadeOut(4000);
+   $("#pu").remove().fadeOut(8000);
            // document.getElementById("k").style.display = "block";
             $("body").css("overflow-y", "visible");
 }
