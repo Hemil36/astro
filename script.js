@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -7,25 +8,14 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
         
-        // scroll-up button show/hide script
+       // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
         }else{
             $('.scroll-up-btn').removeClass("show");
         }
     });
-    var scroller = scrollama();
 
-    scroller
-      .setup({
-        step: '.animista',
-        offset: 1,
-      })
-      .onStepEnter(function(response) {
-        response.element.classList.add('slide-in-right');
-      });
-    
-    window.addEventListener('resize', scroller.resize);
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
@@ -45,6 +35,7 @@ $(document).ready(function(){
     });
 
     // typing text animation script
+    
     var typed = new Typed(".typing", {
         strings: ["Curiosity Thrives!", "we journey together beyond the known!", " Telescopes unveil wonders!", "We Win!"],
         typeSpeed: 60,
@@ -83,3 +74,17 @@ $(document).ready(function(){
         }
     });
 });
+    var scroller = scrollama();
+
+    scroller
+      .setup({
+        step: '.animista',
+        offset: 1,
+      })
+      .onStepEnter(function(response) {
+        response.element.classList.add('slide-in-right');
+      });
+    
+    window.addEventListener('resize', scroller.resize);
+    // slide-up script
+   
